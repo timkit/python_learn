@@ -28,7 +28,6 @@ class Point:
     def __delattr__(self, name):
         print("__Defattr__: "+name)
         
-
 pt1 = Point(1, 3)
 pt2 = Point(10, 20)
 print(pt1.yy)
